@@ -1,0 +1,6 @@
+myhostname = mail.aula.izv
+mydomain = aula.izv
+myorigin = $mydomain
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+home_mailbox = Maildir/
+inet_interfaces = all

@@ -1,0 +1,11 @@
+$TTL 86400
+@   IN  SOA mail.aula.izv. admin.aula.izv. (
+    2023100101 ; Serial
+    3600       ; Refresh
+    1800       ; Retry
+    604800     ; Expire
+    86400      ; Minimum TTL
+)
+
+@   IN  NS  mail.aula.izv.
+10  IN  PTR mail.aula.izv.
